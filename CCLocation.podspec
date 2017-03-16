@@ -1,11 +1,12 @@
 Pod::Spec.new do |s|
   s.name             = 'CCLocation'
-  s.version          = '0.9.8'
+  s.version          = '0.9.9'
   s.summary          = 'The CrowdConnected colocator iOS library'
-  s.homepage         = 'https://developers.colocator.net'
-  s.license          = { :type => 'Copyright', :file => 'LICENSE' }
+  s.homepage         = 'https://github.com/crowdconnected/colocator-ios.git'
+  s.license          = { :type => 'Copyright', :text => 'Copyright (c) 2017 Crowd Connected Ltd' }
   s.author           = { 'CrowdConnected Ltd' => 'mail@crowdconnected.com' }
   s.source           = { :git => 'https://github.com/crowdconnected/colocator-ios.git', :tag => s.version.to_s }
+  s.documentation_url = 'https://developers.colocator.net'
 
   # s.social_media_url = 'https://twitter.com/crowdconnected'
 
