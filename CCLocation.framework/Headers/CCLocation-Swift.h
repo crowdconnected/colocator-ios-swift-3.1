@@ -122,10 +122,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
 
-SWIFT_CLASS("_TtC10CCLocation13CCRequestMain")
-@interface CCRequestMain : NSObject
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CCRequestMain * _Nonnull sharedInstance;)
-+ (CCRequestMain * _Nonnull)sharedInstance;
+SWIFT_CLASS("_TtC10CCLocation10CCLocation")
+@interface CCLocation : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CCLocation * _Nonnull sharedInstance;)
++ (CCLocation * _Nonnull)sharedInstance;
 - (void)startWithURLStringWithURLString:(NSString * _Null_unspecified)withURLString apiKey:(NSString * _Null_unspecified)apiKey;
 - (NSString * _Nullable)getDeviceId;
 - (void)setAliasesWithAliases:(NSDictionary<NSString *, NSString *> * _Nonnull)aliases;
