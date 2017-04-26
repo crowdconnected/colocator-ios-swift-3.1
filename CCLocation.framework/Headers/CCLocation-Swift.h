@@ -126,8 +126,9 @@ SWIFT_CLASS("_TtC10CCLocation10CCLocation")
 @interface CCLocation : NSObject
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) CCLocation * _Nonnull sharedInstance;)
 + (CCLocation * _Nonnull)sharedInstance;
-- (void)startWithURLStringWithURLString:(NSString * _Null_unspecified)withURLString apiKey:(NSString * _Null_unspecified)apiKey;
+- (void)startWithURLString:(NSString * _Null_unspecified)withURLString apiKey:(NSString * _Null_unspecified)apiKey;
 - (NSString * _Nullable)getDeviceId;
+- (void)sendMarkerWithMessage:(NSString * _Nonnull)message;
 - (void)setAliasesWithAliases:(NSDictionary<NSString *, NSString *> * _Nonnull)aliases;
 - (void)stop;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
