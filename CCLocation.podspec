@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'CCLocation'
-  s.version               = '0.9.12'
+  s.version               = '0.9.13'
   s.summary               = 'The CrowdConnected colocator iOS library'
   s.homepage              = 'https://github.com/crowdconnected/colocator-ios.git'
   s.social_media_url      = 'https://twitter.com/crowdconnected'
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.frameworks            = 'CoreLocation', 'UIKit', 'CoreBluetooth'
 
-  s.dependency 'CocoaLumberjack/Swift', '~> 3.1.0'
+  s.dependency 'CocoaLumberjack/Swift', '~> 3.2.0'
   s.dependency 'SocketRocket', '~> 0.4.2'
   s.dependency 'ProtocolBuffers-Swift', '~> 3.0.6'
 end
