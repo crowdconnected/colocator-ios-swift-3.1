@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'CocoaLumberjack/Swift', '~> 3.2.0'
   s.dependency 'SocketRocket', '~> 0.4.2'
-  s.dependency 'SwiftProtobuf', 'master'
+  s.dependency 'SwiftProtobuf'
   s.dependency 'ReSwift', '~> 4.0.0'
   s.dependency 'TrueTime'
   s.dependency 'Result', '~> 3.2.3'
